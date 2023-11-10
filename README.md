@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Setup your env with devbox
 
-Things you may want to cover:
+## (Optional) Install devbox on macOS / Linux / WSL2
+```
+curl -fsSL https://get.jetpack.io/devbox | bash
+```
 
-* Ruby version
+## Init env and open a shell on it
 
-* System dependencies
+```bash
+devbox shell
+bundle install
+```
 
-* Configuration
+## Run the task backup
+```
+rake backup:run --trace
+```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Should see ./bacukps/archive.zip is created
