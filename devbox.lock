@@ -1,0 +1,30 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "bundler@latest": {
+      "last_modified": "2023-10-25T20:49:13Z",
+      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#bundler",
+      "source": "devbox-search",
+      "version": "2.4.20"
+    },
+    "curl@latest": {
+      "last_modified": "2023-11-02T13:29:18Z",
+      "resolved": "github:NixOS/nixpkgs/b644d97bda6dae837d577e28383c10aa51e5e2d2#curl",
+      "source": "devbox-search",
+      "version": "8.4.0"
+    },
+    "ruby@latest": {
+      "last_modified": "2023-10-25T20:49:13Z",
+      "plugin_version": "0.0.2",
+      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#ruby_3_2",
+      "source": "devbox-search",
+      "version": "3.2.2"
+    },
+    "sqlite@latest": {
+      "last_modified": "2023-10-25T20:49:13Z",
+      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#sqlite",
+      "source": "devbox-search",
+      "version": "3.43.1"
+    }
+  }
+}

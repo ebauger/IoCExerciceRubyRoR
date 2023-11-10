@@ -1,0 +1,10 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:rail-inversion-control-services-example}/exampleApp/app/services/files.db",
+            "name": "files test rails"
+        }
+    ]
+}
